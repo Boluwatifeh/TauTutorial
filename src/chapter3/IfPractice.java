@@ -23,6 +23,5 @@ public class IfPractice {
            System.out.println("Incorrect username/password");
        }
 
-
     }
 }

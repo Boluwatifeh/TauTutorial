@@ -2,7 +2,7 @@ package chapter3;
 
 import java.util.Scanner;
 
-public class LoanQualifier {
+public class RefactoredLoanQualifier {
 
     public static void main(String args[]){
 
@@ -18,22 +18,17 @@ public class LoanQualifier {
         double salaryEarned = scanner.nextDouble();
 
         System.out.println("Enter the amount of years worked: ");
-        int years = scanner.nextInt();
+        double years = scanner.nextDouble();
 
         // Make decision
 
-        if(salaryEarned >= salaryQuota ) {
-            if (years >= yearsQuota) {
-                System.out.println("You're qualified for the loan");
-            }
-            else {
-                System.out.println("Sorry, you must have worked at your current job for " + yearsQuota + " years");
-            }
+        if(salaryEarned >= salaryQuota && years >= yearsQuota ) {
+            System.out.println("You're qualified for the loan");
         }
-            else{
-                System.out.println("Sorry, you must have earned at least $" + salaryQuota);
-            }
+        else{
+            System.out.println("Sorry, you must have earned at least $" + salaryQuota);
         }
+         }
 
 
 }
