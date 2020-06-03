@@ -32,5 +32,6 @@ public class ElseifPractice {
 
         // Print out the student's grade
         System.out.println("Your grade is: " + grade );
+
     }
 }

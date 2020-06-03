@@ -24,15 +24,12 @@ public class RefactoredInstantCreditCheck {
 
     public static int getSalary() {
         System.out.println("Enter amount of salary earned: ");
-        int salary = scanner.nextInt();
-        return salary;
-
+        return scanner.nextInt();
     }
 
     public static int getCreditScore() {
         System.out.println("Enter amount of credit score : ");
-        int creditScore = scanner.nextInt();
-        return creditScore;
+        return scanner.nextInt();
     }
 
     public static boolean isUserQualified(int salary , int creditScore) {

@@ -3,8 +3,7 @@ package chapter3;
 import java.util.Scanner;
 
 /*
-
-IF STATEMENT
+IF ELSE STATEMENT
 All salespeople are expected to make at least 10 sales per week
 For those who do, they get a congratulatory message
 For those who don't, they are informed of how many sales they are short of
