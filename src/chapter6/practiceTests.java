@@ -16,17 +16,14 @@ public class practiceTests {
     }
     public static int firstNumber(){
         System.out.println("Enter first number: ");
-        int number1 = scanner.nextInt();
-        return number1;
+        return scanner.nextInt();
     }
     public static int secondNumber(){
         System.out.println("Enter second number: ");
-        int number2 = scanner.nextInt();
-        return number2;
+        return scanner.nextInt();
 
     }
     public static int calculateSum(int num1, int num2){
-        int sum = num1 + num2;
-        return sum;
+        return num1 + num2;
     }
 }
