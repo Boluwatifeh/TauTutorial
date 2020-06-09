@@ -20,8 +20,5 @@ public class PhoneBill {
         this.minutes_used = minutes_used;
     }
 
-    public static double calculateOverage(){
-
-    }
 
 }
