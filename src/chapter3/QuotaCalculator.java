@@ -10,7 +10,7 @@ For those who don't, they are informed of how many sales they are short of
  */
 public class QuotaCalculator {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         int quota = 10;
 
