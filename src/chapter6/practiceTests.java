@@ -3,11 +3,10 @@ package chapter6;
 import java.util.Scanner;
 
 public class practiceTests {
-   static  int number1;
-   static int number2;
+
  static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String args[]){
+    public static void main(String[] args){
        int firstNumber =firstNumber();
        int secondNumber = secondNumber();
        scanner.close();
