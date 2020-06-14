@@ -2,7 +2,7 @@ package chapter6;
 
 public class HomeAreaCalculator {
 
-    public static void main(String args []){
+    public static void main(String[] args){
 
         /**************
          *RECTANGLE 1
