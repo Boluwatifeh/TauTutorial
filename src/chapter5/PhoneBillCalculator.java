@@ -19,10 +19,10 @@ public class PhoneBillCalculator {
         double chargesPerMinute = 0.25;
         double subTotalTax = 15;
         // get what we dont know
-         double planFee =  enterPlanFee();
-         int overageMinutes =  enterOverageMinutes();
-       double fees  = overageFees(chargesPerMinute, overageMinutes);
-       double tax =  calculateTax(planFee, fees, subTotalTax);
+        double planFee =  enterPlanFee();
+        int overageMinutes =  enterOverageMinutes();
+        double fees  = overageFees(chargesPerMinute, overageMinutes);
+        double tax =  calculateTax(planFee, fees, subTotalTax);
         double total = finalTotal(planFee, fees, tax);
         statement(planFee,fees, tax, total);
 
@@ -47,8 +47,8 @@ public class PhoneBillCalculator {
     }
 
     private static double overageFees(double chargesPerMinute, double overageMinutes) {
-       double fees = chargesPerMinute * overageMinutes;
-       return fees;
+        double fees = chargesPerMinute * overageMinutes;
+        return fees;
     }
 
     private static int enterOverageMinutes() {
@@ -59,8 +59,8 @@ public class PhoneBillCalculator {
 
     public static double enterPlanFee(){
         System.out.println("Enter base cost of the plan: ");
-       double planFee = scanner.nextDouble();
-       return planFee;
+        double planFee = scanner.nextDouble();
+        return planFee;
     }
 
 }
