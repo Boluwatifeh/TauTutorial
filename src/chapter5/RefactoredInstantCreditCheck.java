@@ -9,7 +9,7 @@ public class RefactoredInstantCreditCheck {
     static int requiredCreditScore = 700;
     static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int salary = getSalary();
         int creditScore = getCreditScore();
