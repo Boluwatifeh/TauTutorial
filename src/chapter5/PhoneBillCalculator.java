@@ -37,30 +37,25 @@ public class PhoneBillCalculator {
     }
 
     private static double finalTotal(double planFee, double fees, double tax) {
-        double total = planFee + fees + tax;
-        return total;
+        return planFee + fees + tax;
     }
 
     private static double calculateTax(double planFee, double fees, double subTotalTax) {
-        double tax = (planFee + fees) / 100 * subTotalTax;
-        return tax;
+        return (planFee + fees) / 100 * subTotalTax;
     }
 
     private static double overageFees(double chargesPerMinute, double overageMinutes) {
-        double fees = chargesPerMinute * overageMinutes;
-        return fees;
+        return chargesPerMinute * overageMinutes;
     }
 
     private static int enterOverageMinutes() {
         System.out.println("Enter overage minutes: ");
-        int overageMinutes = scanner.nextInt();
-        return overageMinutes;
+        return scanner.nextInt();
     }
 
     public static double enterPlanFee(){
         System.out.println("Enter base cost of the plan: ");
-        double planFee = scanner.nextDouble();
-        return planFee;
+        return scanner.nextDouble();
     }
 
 }
