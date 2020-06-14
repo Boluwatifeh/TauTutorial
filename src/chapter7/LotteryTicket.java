@@ -7,7 +7,7 @@ public class LotteryTicket {
     private static final int MAX_TICKET_NUMBER = 69;
     public static void main(String[] args) {
 
-        int ticket[] =  generateNumbers();
+        int[] ticket =  generateNumbers();
         printTicket(ticket);
     }
 
@@ -21,7 +21,7 @@ public class LotteryTicket {
         return ticket;
     }
 
-    public static void printTicket(int ticket[]){
+    public static void printTicket(int[] ticket){
         for (int i=0; i<LENGTH; i++){
             System.out.print(ticket[i] + " | ");
         }
