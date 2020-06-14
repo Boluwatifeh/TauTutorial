@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class IfPractice {
 
-    public static  void  main(String arg[]){
+    public static  void  main(String[] arg){
 
         String username = "boluwatife";
         String password = "TifeEasypeasy";
