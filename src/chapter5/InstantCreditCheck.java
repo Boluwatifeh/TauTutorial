@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class InstantCreditCheck {
 
-    public static void main(String args []){
+    public static void main(String[] args){
 
         // initialize what we know
         int requiredSalary = 25000;
