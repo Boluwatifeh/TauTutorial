@@ -33,12 +33,8 @@ public class RefactoredInstantCreditCheck {
     }
 
     public static boolean isUserQualified(int salary , int creditScore) {
-        if (salary >= requiredSalary && creditScore >= requiredCreditScore  ) {
-//creditScore >= requiredCreditScore
-            return true;
-        } else {
-            return false;
-        }
+        //creditScore >= requiredCreditScore
+        return salary >= requiredSalary && creditScore >= requiredCreditScore;
     }
 
     public static void notifyUser(boolean isQualified) {
