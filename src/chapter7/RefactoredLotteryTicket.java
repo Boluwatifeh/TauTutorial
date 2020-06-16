@@ -1,5 +1,6 @@
 package chapter7;
 
+import java.util.Arrays;
 import java.util.Random;
 /*
  In this exercise, the lottery ticket program was refactored so as not to
@@ -13,6 +14,7 @@ public class RefactoredLotteryTicket {
     public static void main(String[] args) {
 
         int[] ticket =  generateNumbers();
+        Arrays.sort(ticket);
         printTicket(ticket);
     }
 
